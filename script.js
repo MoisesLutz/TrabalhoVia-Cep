@@ -61,9 +61,9 @@ function limparEndereco() {
 function toggleLoading(show) {
     const loadingDiv = document.getElementById('loading');
     if (show) {
-        loadingDiv.classList.remove('d-none'); // Remove a classe do Bootstrap que esconde o elemento
+        loadingDiv.classList.remove('d-none'); 
     } else {
-        loadingDiv.classList.add('d-none'); // Adiciona a classe para esconder o elemento
+        loadingDiv.classList.add('d-none'); 
     }
 }
 
